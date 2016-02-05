@@ -6,9 +6,10 @@
  */
 
  /* White Space */
- .ml0{ margin-left: 0 }
- .mr0{ margin-right: 0 }
- 
+.ml0{ margin-left: 0 }
+.mr0{ margin-right: 0 }
+
+.gutter{ padding: ($outer-margin + $gutter-compensation) }
 .gutter-x-padding{ padding-top: ($outer-margin + $gutter-compensation); padding-bottom: ($outer-margin + $gutter-compensation) }
 .gutter-x-margin{ margin-top: ($outer-margin + $gutter-compensation); margin-bottom: ($outer-margin + $gutter-compensation) }
 
