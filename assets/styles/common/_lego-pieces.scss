@@ -1,0 +1,17 @@
+/**
+ *
+ * A collection of single purpose classes,
+ * do one thing and do it well
+ *
+ */
+
+ /* Image Background */
+.bg-cover{ background-size: cover }
+.bg-center{ background-position: center }
+
+/* Colors */
+.bg-white{ background: $white }
+.bg-black{ background: $black }
+
+.color-white{ color: $white }
+.color-black{ color: $black }
