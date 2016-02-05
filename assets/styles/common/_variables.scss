@@ -1,3 +1,11 @@
+/**
+ *
+ * This variables file will override Bootstraps default variables defined here:
+ * bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+ * We attempt to maintain the same defination order as Bootstrap's variable file as well
+ *
+ */
+
 // Glyphicons font path
 $icon-font-path:        "../fonts/";
 
@@ -6,4 +14,12 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
+$black:					#1C140D;
+$white:					#fff;
 $brand-primary:         #27ae60;
+
+// Scaffolding
+$body-bg: 				$black;
+$text-color:			$white;
+
+// Typography		
