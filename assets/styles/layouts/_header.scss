@@ -1,8 +1,9 @@
 header{
 	background: $black;
+	padding: ($outer-margin + $gutter-compensation) 0;
 
 	h1{
-		//border-color: $black;
+		border-color: $black;
 		margin: 0;
 		a{
 			color: $black;

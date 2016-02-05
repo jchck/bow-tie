@@ -6,6 +6,11 @@
  *
  */
 
+ // Flexbox Grid
+ $gutter-width:			1.5rem;
+ $outer-margin: 		3rem;
+ $gutter-compensation: (($gutter-width / 2) * -1);
+
 // Glyphicons font path
 $icon-font-path:        "../fonts/";
 
