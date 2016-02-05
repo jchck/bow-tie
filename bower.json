@@ -9,6 +9,7 @@
   "dependencies": {
     "bootstrap-sass": "3.3.6",
     "flexboxgrid": "sass",
+    "jchck-btn": "~1.0.0",
     "zoom.js": "~0.0.1"
   },
   "overrides": {
