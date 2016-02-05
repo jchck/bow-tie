@@ -1,4 +1,4 @@
-<header class="row middle-xs between-xs bg-white">
+<header class="row middle-xs between-xs mr0 ml0 bg-white">
   <h1><a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1>
   <nav class="nav-primary">
     <?php

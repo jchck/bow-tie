@@ -16,7 +16,8 @@ use Roots\Sage\Wrapper;
       </div>
     <![endif]-->
 
-    <div class="wrap container-fluid gutter-x" rold="document">
+    <div class="wrap container-fluid" role="document">
+      <div class="" style="background: url(/content/themes/bow-tie/dist/images/farm.jpg) center; background-size: cover; height: 100vh">
       <?php 
         do_action( 'get_header' ); 
         get_template_part( 'templates/header' );
@@ -31,6 +32,7 @@ use Roots\Sage\Wrapper;
         </aside><!-- /.sidebar -->
         <?php endif; ?>
       </div><!-- /.content -->
+      </div>
     </div><!-- /.wrap .container-fluid -->
   
     <?php
