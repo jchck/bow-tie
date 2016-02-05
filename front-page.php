@@ -1,0 +1,1 @@
+<div class="bg-cover bg-center hero"></div>
