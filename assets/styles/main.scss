@@ -17,10 +17,12 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss";
 @import "../../bower_components/flexboxgrid/src/sass/flexboxgrid.scss";
+@import "../../bower_components/jchck-btn/src/btn.scss";
 // endbower
 
 @import "common/global";
 @import "common/lego-pieces";
+@import "common/buttons";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";

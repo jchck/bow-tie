@@ -11,6 +11,10 @@
  $outer-margin: 		3rem;
  $gutter-compensation: (($gutter-width / 2) * -1);
 
+ //jchck-btn
+ // Uses same variable names as Bootstrap
+ $btn-border-radius-base: 0px;
+
 // Glyphicons font path
 $icon-font-path:        "../fonts/";
 
@@ -26,6 +30,10 @@ $brand-primary:         #27ae60;
 // Scaffolding
 $body-bg: 				$black;
 $text-color:			$white;
+
+// $link-color:           	$text-color;
+// $link-hover-color:      darken($link-color, 15%);
+// $link-hover-decoration: underline;
 
 // Typography
 $font-family-sans-serif: 'Open Sans', sans-serif;
