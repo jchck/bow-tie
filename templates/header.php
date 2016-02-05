@@ -1,6 +1,6 @@
-<header class="banner">
-  <div class="container">
-    <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+<header class="banner container-fluid">
+  <div class="row middle-xs between-xs" style="height:15vh">
+    <h1><a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1>
     <nav class="nav-primary">
       <?php
       if (has_nav_menu('primary_navigation')) :

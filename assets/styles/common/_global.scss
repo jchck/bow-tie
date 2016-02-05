@@ -1,6 +1,9 @@
 @mixin border-base(){
 	border: 5px solid;
 }
+@mixin border-sm(){
+	border: 2px solid;
+} 
 h1, h2, h3, h4, h5, h6{
 	@include border-base;
 	//padding: $line-height-computed;
