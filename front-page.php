@@ -1,5 +1,5 @@
 <div class="row center-xs gutter-x-padding">
-	<div class="col-sm-6">
+	<div class="col-sm-6 col-xs-12">
 		<div class="border text-center">
 			<h2>A WordPress theme that is so fresh and so clean</h2>
 			<a href="#" class="btn btn-black btn-lg">Download</a>
