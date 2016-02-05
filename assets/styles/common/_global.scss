@@ -1,1 +1,14 @@
-
+@mixin border-base(){
+	border: 5px solid;
+}
+h1, h2, h3, h4, h5, h6{
+	@include border-base;
+	//padding: $line-height-computed;
+	display: inline-block;
+}
+h1, h2, h3{
+	padding: $line-height-computed;
+}
+h4, h5, h6{
+	padding: ($line-height-computed / 2);
+}
