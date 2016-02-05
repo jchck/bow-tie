@@ -16,7 +16,7 @@ use Roots\Sage\Wrapper;
       </div>
     <![endif]-->
 
-    <div class="wrap container-fluid" rold="document">
+    <div class="wrap container-fluid gutter-x" rold="document">
       <?php 
         do_action( 'get_header' ); 
         get_template_part( 'templates/header' );
@@ -39,5 +39,6 @@ use Roots\Sage\Wrapper;
       wp_footer();
       get_template_part( 'templates/google', 'font' );
     ?>
+
   </body>
 </html>

@@ -5,6 +5,9 @@
  *
  */
 
+ /* White Space */
+.gutter-x{ padding-top: ($outer-margin + $gutter-compensation); padding-bottom: ($outer-margin + $gutter-compensation) }
+
  /* Image Background */
 .bg-cover{ background-size: cover }
 .bg-center{ background-position: center }
