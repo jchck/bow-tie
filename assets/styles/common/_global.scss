@@ -6,7 +6,6 @@
 } 
 h1, h2, h3, h4, h5, h6{
 	@include border-base;
-	//padding: $line-height-computed;
 	display: inline-block;
 }
 h1, h2, h3{
@@ -15,3 +14,6 @@ h1, h2, h3{
 h4, h5, h6{
 	padding: ($line-height-computed / 2);
 }
+
+.bg-cover{ background-size: cover }
+.bg-center{ background-position: center }
