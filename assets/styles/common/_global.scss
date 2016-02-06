@@ -54,6 +54,9 @@ h4, h5, h6{
 		font-size: 105%;
 		margin: 0;
 	}
+	.about{
+		font-size: $font-size-h4;
+	}
 }
 
 .box{ padding: $line-height-computed }
@@ -77,5 +80,5 @@ h4, h5, h6{
 /* Pic Holders */
 
 .pic{
-	padding: ($line-height-computed * 4)
+	padding: ($line-height-computed * 6)
 }
