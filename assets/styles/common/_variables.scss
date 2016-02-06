@@ -28,7 +28,7 @@ $white:					#fff;
 $brand-primary:         #27ae60;
 
 // Scaffolding
-$body-bg: 				$black;
+$body-bg: 				red; //$black;
 $text-color:			$white;
 
 // $link-color:           	$text-color;
@@ -37,6 +37,7 @@ $text-color:			$white;
 
 // Typography
 $font-family-sans-serif: 'Open Sans', sans-serif;
+$font-size-base:          16px;
 
 // Navigation
 $nav-link-hover-bg: 	$black;
