@@ -1,9 +1,15 @@
+
+/* Mixins */
+
 @mixin border-base(){
 	border: 5px solid;
 }
 @mixin border-sm(){
 	border: 2px solid;
-} 
+}
+
+/* Heading Border Scale */
+
 h1, h2, h3, h4, h5, h6{
 	@include border-base;
 	display: inline-block;
@@ -15,7 +21,9 @@ h4, h5, h6{
 	padding: ($line-height-computed / 2);
 }
 
-.border, .box{
+/* Div Borders & Backgrounds & Pic Holders */
+
+.border, .box, .pic{
 	h2, h3, h4, h5, h6{
 		border: none;
 		margin: 0;
@@ -23,13 +31,17 @@ h4, h5, h6{
 	}
 }
 
+/* Div Border */
+
 .border{
 	@include border-base;
 	padding: $line-height-computed;
 }
 
-.box{
-	padding: $line-height-computed;
+/* Div Background */
+
+.box,
+.pic{
 	display: block;
 	text-align: center;
 	h2{
@@ -44,9 +56,7 @@ h4, h5, h6{
 	}
 }
 
-.box-border{
-	@include border-base;
-}
+.box{ padding: $line-height-computed }
 
 .box-black{
 	background: $black;
@@ -56,4 +66,16 @@ h4, h5, h6{
 .box-white{
 	background: $white;
 	color: $black;
+}
+
+/* Div Background w Border */
+
+.box-border{
+	@include border-base;
+}
+
+/* Pic Holders */
+
+.pic{
+	padding: ($line-height-computed * 4)
 }

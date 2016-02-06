@@ -1,4 +1,4 @@
-<div class="row center-xs gutter-x-padding vh75">
+<div class="row center-xs gutter-x-padding section-top">
 	<div class="col-sm-6 col-xs-12">
 		<div class="border text-center">
 			<h2>A WordPress theme that is so fresh and so clean</h2>
@@ -10,7 +10,7 @@
 	</div>
 </div>
 
-<div class="row">
+<div class="row section-mid">
 	<div class="col-xs-12">
 		<div class="box box-black">
 			<div class="row center-xs">
@@ -36,6 +36,21 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row section-bot">
+	<div class="col-sm-6">
+		<div class="pic box-border" style="background: url(/content/themes/bow-tie/dist/images/farm.jpg) center; background-size: cover">
+			<h2>The Name</h2>
+			<a href="#" class="btn btn-black">View</a>
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="pic box-border" style="background: url(/content/themes/bow-tie/dist/images/farm.jpg) center; background-size: cover">
+			<h2>The Name</h2>
+			<a href="#" class="btn btn-black">View</a>
 		</div>
 	</div>
 </div>

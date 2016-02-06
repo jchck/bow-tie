@@ -1,5 +1,5 @@
-// .hero{
-// 	background: url(../images/farm.jpg) center center;
-// 	background-size: cover;
-// 	height: 100vh;
-// }
+.section-top, .section-mid, .section-bot{
+	@media (min-width: $screen-xs){ padding-bottom: 15rem }
+	@media (min-width: $screen-sm){ padding-bottom: 20rem }
+	@media (min-width: $screen-md){ padding-bottom: 30rem }
+}

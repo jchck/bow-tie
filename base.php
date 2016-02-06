@@ -17,7 +17,7 @@ use Roots\Sage\Wrapper;
     <![endif]-->
 
     <div class="wrap container-fluid gutter-x-padding" role="document">
-      <div class="vh150" style="background: url(/content/themes/bow-tie/dist/images/farm.jpg) center; background-size: cover; background-attachment:fixed">
+      <div class="h100" style="background: url(/content/themes/bow-tie/dist/images/farm.jpg) center; background-size: cover; background-attachment:fixed">
       <?php 
         do_action( 'get_header' ); 
         get_template_part( 'templates/header' );
