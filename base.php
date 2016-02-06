@@ -8,7 +8,7 @@ use Roots\Sage\Wrapper;
 <!doctype html>
 <html <?php language_attributes(); ?>>
   <?php get_template_part('templates/head'); ?>
-  <body <?php body_class('gutter-x-padding'); ?>>
+  <body <?php body_class(); ?>>
 
     <!--[if IE]>
       <div class="alert alert-warning">
@@ -16,8 +16,8 @@ use Roots\Sage\Wrapper;
       </div>
     <![endif]-->
 
-    <div class="wrap container-fluid" role="document">
-      <div class="" style="background: url(/content/themes/bow-tie/dist/images/farm.jpg) center; background-size: cover; background-attachment:fixed; height: 100vh">
+    <div class="wrap container-fluid gutter-x-padding" role="document">
+      <div class="vh150" style="background: url(/content/themes/bow-tie/dist/images/farm.jpg) center; background-size: cover; background-attachment:fixed">
       <?php 
         do_action( 'get_header' ); 
         get_template_part( 'templates/header' );

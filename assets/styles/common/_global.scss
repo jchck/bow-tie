@@ -15,13 +15,25 @@ h4, h5, h6{
 	padding: ($line-height-computed / 2);
 }
 
-.border{
-	@include border-base;
-	padding: $line-height-computed;
-
+.border, .box{
 	h2, h3, h4, h5, h6{
 		border: none;
 		margin: 0;
 		display: block;
 	}
+}
+
+.border{
+	@include border-base;
+	padding: $line-height-computed;
+}
+
+.box{
+	@include border-base;
+	padding: $line-height-computed;
+}
+
+.box-black{
+	background: $black;
+	color: $white;
 }

@@ -13,6 +13,11 @@
 .gutter-x-padding{ padding-top: ($outer-margin + $gutter-compensation); padding-bottom: ($outer-margin + $gutter-compensation) }
 .gutter-x-margin{ margin-top: ($outer-margin + $gutter-compensation); margin-bottom: ($outer-margin + $gutter-compensation) }
 
+.vh75{ height: 75vh }
+.vh90{ height: 90vh }
+.vh150{ height: 150vh }
+
+
 /* Flex Object */
 .flex{ display: flex }
 
