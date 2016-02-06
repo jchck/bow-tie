@@ -29,11 +29,31 @@ h4, h5, h6{
 }
 
 .box{
-	@include border-base;
 	padding: $line-height-computed;
+	display: block;
+	text-align: center;
+	h2{
+		padding-left: 0;
+		padding-right: 0;
+		text-transform: capitalize;
+		letter-spacing: 2px;
+	}
+	p{
+		font-size: 105%;
+		margin: 0;
+	}
+}
+
+.box-border{
+	@include border-base;
 }
 
 .box-black{
 	background: $black;
 	color: $white;
+}
+
+.box-white{
+	background: $white;
+	color: $black;
 }

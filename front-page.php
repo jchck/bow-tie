@@ -10,19 +10,32 @@
 	</div>
 </div>
 
-<div class="row around-xs">
-	<div class="col-xs-4">
+<div class="row">
+	<div class="col-xs-12">
 		<div class="box box-black">
-			<h2>Post title</h2>
-			<p>Lorem ipsum Et do cupidatat pariatur fugiat Ut in aliqua consequat sit exercitation occaecat elit Ut aute tempor fugiat ad dolor occaecat Duis ut laborum.</p>
-			<p>Lorem ipsum Et do cupidatat pariatur fugiat Ut in aliqua consequat sit exercitation occaecat elit Ut aute tempor fugiat ad dolor occaecat Duis ut laborum.</p>
-		</div>
-	</div>
-	<div class="col-xs-4">
-		<div class="box box-black">
-			<h2>Post title</h2>
-			<p>Lorem ipsum Et do cupidatat pariatur fugiat Ut in aliqua consequat sit exercitation occaecat elit Ut aute tempor fugiat ad dolor occaecat Duis ut laborum.</p>
-			<p>Lorem ipsum Et do cupidatat pariatur fugiat Ut in aliqua consequat sit exercitation occaecat elit Ut aute tempor fugiat ad dolor occaecat Duis ut laborum.</p>
+			<div class="row center-xs">
+				<div class="col-sm-4">
+					<div class="box box-white">
+						<h2>Post title</h2>
+						<p>Lorem ipsum Et do cupidatat pariatur fugiat Ut in aliqua consequat sit exercitation occaecat elit Ut aute tempor fugiat ad dolor occaecat Duis ut laborum.</p>
+						<a href="#" class="btn btn-black base my1">Read</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="box box-white">
+						<h2>Post title</h2>
+						<p>Lorem ipsum Et do cupidatat pariatur fugiat Ut in aliqua consequat sit exercitation occaecat elit Ut aute tempor fugiat ad dolor occaecat Duis ut laborum.</p>
+						<a href="#" class="btn btn-black base my1">Read</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="box box-white">
+						<h2>Post title</h2>
+						<p>Lorem ipsum Et do cupidatat pariatur fugiat Ut in aliqua consequat sit exercitation occaecat elit Ut aute tempor fugiat ad dolor occaecat Duis ut laborum.</p>
+						<a href="#" class="btn btn-black base my1">Read</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

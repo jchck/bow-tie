@@ -1,13 +1,18 @@
 .btn-black{
 	@include btn-color($white, $black, transparent);
 	@include border-sm;
-	border-color: transparent;
 
 	&:hover,
 	&:focus{
 		background-color: transparent;
 		color: $white;
 		border-color: $white;
+	}
+	&.base{
+		&:hover{
+			color: $black;
+			border-color: $black; 
+		}
 	}
 }
 

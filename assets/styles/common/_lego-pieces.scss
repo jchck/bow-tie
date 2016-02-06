@@ -9,6 +9,9 @@
 .ml0{ margin-left: 0 }
 .mr0{ margin-right: 0 }
 
+.my1{ margin-top: ($line-height-computed / 2); margin-bottom: ($line-height-computed / 2) }
+.mx1{ margin-left: ($line-height-computed / 2); margin-right: ($line-height-computed / 2) }
+
 .gutter{ padding: ($outer-margin + $gutter-compensation) }
 .gutter-x-padding{ padding-top: ($outer-margin + $gutter-compensation); padding-bottom: ($outer-margin + $gutter-compensation) }
 .gutter-x-margin{ margin-top: ($outer-margin + $gutter-compensation); margin-bottom: ($outer-margin + $gutter-compensation) }
