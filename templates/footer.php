@@ -1,5 +1,10 @@
-<footer class="content-info">
-  <div class="container">
-    
-  </div>
+<footer class="col-xs-12">
+	<div class="box box-black clearfix">
+		<h5 class="pull-left">
+			<a href="<?php echo admin_url(); ?>" target="_blank" class="login">&copy;</a> <?php echo date('Y') ?> <a href="/"><?php bloginfo( 'name' ); ?></a>
+		</h5>
+		<h5 class="pull-right">
+			<a href="http://jstn.ch/ck" target="_blank" title="Justin Chick is a freelance front-end developer">Who made this?</a>
+		</h5>
+	</div>
 </footer>

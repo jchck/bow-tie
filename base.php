@@ -31,13 +31,13 @@ use Roots\Sage\Wrapper;
           <?php include Wrapper\sidebar_path(); ?>
         </aside><!-- /.sidebar -->
         <?php endif; ?>
+        <?php get_template_part('templates/footer'); ?>
       </div><!-- /.content -->
       </div>
     </div><!-- /.wrap .container-fluid -->
-  
+    
     <?php
       do_action('get_footer');
-      get_template_part('templates/footer');
       wp_footer();
       get_template_part( 'templates/google', 'font' );
     ?>
