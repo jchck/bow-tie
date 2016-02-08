@@ -13,6 +13,8 @@
 .mx1{ margin-left: ($line-height-computed / 2); margin-right: ($line-height-computed / 2) }
 
 .p0{ padding: 0 }
+.pl0{ padding-left: 0 }
+.pr0{ padding-right: 0 }
 
 .gutter{ padding: ($outer-margin + $gutter-compensation) }
 .gutter-x-padding{ padding-top: ($outer-margin + $gutter-compensation); padding-bottom: ($outer-margin + $gutter-compensation) }
