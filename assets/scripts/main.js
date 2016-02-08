@@ -22,6 +22,17 @@
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+        var userFeed = new Instafeed({
+          get: 'user',
+          userId: 1334627384,
+          accessToken: '176925907.467ede5.ff298f16926c411485bfae048fa0eab5',
+          sortBy: 'most-recent',
+          limit: 4,
+          resolution: 'standard_resolution',
+          template: '<div class="col-sm-6 p0"><div class="pic gallery-inner box-border" style="background: url({{image}}) center; background-size: cover"><a href="#" class="btn btn-black">View</a></div></div>'
+        });
+
+        userFeed.run();
       }
     },
     // Home page

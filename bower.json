@@ -10,7 +10,7 @@
     "bootstrap-sass": "3.3.6",
     "flexboxgrid": "sass",
     "jchck-btn": "~1.0.0",
-    "zoom.js": "~0.0.1"
+    "instafeed.js": "^1.4.1"
   },
   "overrides": {
     "flexboxgrid": {
@@ -31,14 +31,11 @@
         "./assets/stylesheets/bootstrap/_list-group.scss",
         "./assets/stylesheets/bootstrap/_responsive-embed.scss",
         "./assets/stylesheets/bootstrap/_utilities.scss",
-        "./assets/stylesheets/bootstrap/_responsive-utilities.scss",
-        "./assets/javascripts/bootstrap/transition.js"
+        "./assets/stylesheets/bootstrap/_responsive-utilities.scss"
       ]
     },
-    "zoom.js": {
-      "main": [
-        "./js/zoom.js"
-      ]
+    "instafeed.js": {
+      "main": "./instafeed.js"
     }
   }
 }
