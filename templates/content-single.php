@@ -2,7 +2,7 @@
   <article <?php post_class(); ?>>
 
     <header class="flex center-xs">
-      <div class="entry-title text-right flex flex-column">
+      <div class="entry-title flex flex-column">
         <h1><?php the_title(); ?></h1>
         <?php get_template_part('templates/entry-meta'); ?>
       </div>
