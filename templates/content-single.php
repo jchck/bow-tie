@@ -1,9 +1,13 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
-    <header>
-      <h1 class="entry-title border-white"><?php the_title(); ?></h1>
-      <?php get_template_part('templates/entry-meta'); ?>
+
+    <header class="flex center-xs">
+      <div class="entry-title text-right flex flex-column">
+        <h1><?php the_title(); ?></h1>
+        <?php get_template_part('templates/entry-meta'); ?>
+      </div>
     </header>
+
     <div class="entry-content">
       <?php the_content(); ?>
     </div>
