@@ -1,3 +1,7 @@
+<div class="h100" style="background: url(/content/themes/bow-tie/dist/images/farm.jpg) center; background-size: cover; background-attachment:fixed">
+<div class="row center-xs">
+<div class="col-xs-11">
+
 <div class="row center-xs gutter-x-padding section">
 	<div class="col-sm-6 col-xs-12">
 		<div class="border text-center">
@@ -78,3 +82,7 @@
 	</div>
 </div>
 
+</div>
+</div>
+
+</div>

@@ -17,13 +17,12 @@ use Roots\Sage\Wrapper;
     <![endif]-->
 
     <div class="wrap container-fluid gutter-x-padding" role="document">
-      <div class="h100" style="background: url(/content/themes/bow-tie/dist/images/farm.jpg) center; background-size: cover; background-attachment:fixed">
       <?php 
         do_action( 'get_header' ); 
         get_template_part( 'templates/header' );
       ?>
       <div class="content row center-xs">
-        <main class="col-xs-11">
+        <main class="col-xs-12">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->
         <?php if ( Setup\display_sidebar() ) : ?>
@@ -33,7 +32,6 @@ use Roots\Sage\Wrapper;
         <?php endif; ?>
         <?php get_template_part('templates/footer'); ?>
       </div><!-- /.content -->
-      </div>
     </div><!-- /.wrap .container-fluid -->
     
     <?php
