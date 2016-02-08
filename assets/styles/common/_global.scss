@@ -7,6 +7,9 @@
 @mixin border-sm(){
 	border: 2px solid;
 }
+@mixin ease-in-out() {
+  transition: all .2s ease-in-out;
+}
 
 /* Heading Border Scale */
 

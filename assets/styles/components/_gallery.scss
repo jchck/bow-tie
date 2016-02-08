@@ -1,0 +1,16 @@
+/**
+ *
+ * @link http://codepen.io/ianfarb/pen/EJunm
+ *
+ */
+
+
+.gallery .pic{
+	@include ease-in-out;
+}
+
+.gallery:hover{
+	.gallery-inner:not(:hover){
+		filter: grayscale(1);
+	}
+}

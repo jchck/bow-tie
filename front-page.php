@@ -58,25 +58,25 @@
 
 	<div class="row section gallery">
 		<div class="col-sm-6 p0">
-			<div class="pic box-border" style="background: url(/content/themes/bow-tie/dist/images/pic1.jpg) center; background-size: cover">
+			<div class="pic gallery-inner box-border" style="background: url(/content/themes/bow-tie/dist/images/pic1.jpg) center; background-size: cover">
 				<h2>The Name</h2>
 				<a href="#" class="btn btn-black">View</a>
 			</div>
 		</div>
 		<div class="col-sm-6 p0">
-			<div class="pic box-border" style="background: url(/content/themes/bow-tie/dist/images/pic2.jpg) center; background-size: cover">
+			<div class="pic gallery-inner box-border" style="background: url(/content/themes/bow-tie/dist/images/pic2.jpg) center; background-size: cover">
 				<h2>The Name</h2>
 				<a href="#" class="btn btn-black">View</a>
 			</div>
 		</div>
 		<div class="col-sm-6 p0">
-			<div class="pic box-border" style="background: url(/content/themes/bow-tie/dist/images/pic3.jpg) center; background-size: cover">
+			<div class="pic gallery-inner box-border" style="background: url(/content/themes/bow-tie/dist/images/pic3.jpg) center; background-size: cover">
 				<h2>The Name</h2>
 				<a href="#" class="btn btn-black">View</a>
 			</div>
 		</div>
 		<div class="col-sm-6 p0">
-			<div class="pic box-border" style="background: url(/content/themes/bow-tie/dist/images/pic4.jpg) center; background-size: cover">
+			<div class="pic gallery-inner box-border" style="background: url(/content/themes/bow-tie/dist/images/pic4.jpg) center; background-size: cover">
 				<h2>The Name</h2>
 				<a href="#" class="btn btn-black">View</a>
 			</div>
