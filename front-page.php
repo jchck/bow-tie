@@ -56,7 +56,7 @@
 		</div>
 	</div>
 
-	<div class="row section">
+	<div class="row section gallery">
 		<div class="col-sm-6 p0">
 			<div class="pic box-border" style="background: url(/content/themes/bow-tie/dist/images/pic1.jpg) center; background-size: cover">
 				<h2>The Name</h2>
