@@ -19,27 +19,15 @@
 		<div class="col-xs-12">
 			<div class="box box-black">
 				<div class="row center-xs">
+					<?php while (have_posts()) : the_post(); ?>
 					<div class="col-sm-4">
 						<div class="box box-white">
-							<h2>Post title</h2>
-							<p>Lorem ipsum Et do cupidatat pariatur fugiat Ut in aliqua consequat sit exercitation occaecat elit Ut aute tempor fugiat ad dolor occaecat Duis ut laborum.</p>
-							<a href="#" class="btn btn-black base my1">Read</a>
+							<h2><?php the_title(); ?></h2>
+							<?php the_excerpt(); ?>
+							<a href="<?php the_permalink(); ?>" class="btn btn-black base my1">Read</a>
 						</div>
 					</div>
-					<div class="col-sm-4">
-						<div class="box box-white">
-							<h2>Post title</h2>
-							<p>Lorem ipsum Et do cupidatat pariatur fugiat Ut in aliqua consequat sit exercitation occaecat elit Ut aute tempor fugiat ad dolor occaecat Duis ut laborum.</p>
-							<a href="#" class="btn btn-black base my1">Read</a>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="box box-white">
-							<h2>Post title</h2>
-							<p>Lorem ipsum Et do cupidatat pariatur fugiat Ut in aliqua consequat sit exercitation occaecat elit Ut aute tempor fugiat ad dolor occaecat Duis ut laborum.</p>
-							<a href="#" class="btn btn-black base my1">Read</a>
-						</div>
-					</div>
+					<?php endwhile; ?>
 				</div>
 			</div>
 		</div>
