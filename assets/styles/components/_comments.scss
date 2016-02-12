@@ -1,3 +1,5 @@
+.comments{ background: $black; }
+
 .comment-list {
   @include list-unstyled;
 }
@@ -12,8 +14,13 @@
 .comment-form input[type="url"],
 .comment-form textarea {
   @extend .form-control;
+  border-radius: 0;
+  box-shadow: none;
+  border: 0;
 }
 .comment-form input[type="submit"] {
   @extend .btn;
   @extend .btn-primary;
 }
+
+.form-submit{ text-align: center }
