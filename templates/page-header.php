@@ -1,5 +1,5 @@
 <?php use Roots\Sage\Titles; ?>
 
-<div class="page-header">
-  <h1><?= Titles\title(); ?></h1>
-</div>
+<header class="flex center-xs">
+  <h1 class="entry-title"><?= Titles\title(); ?></h1>
+</header>
