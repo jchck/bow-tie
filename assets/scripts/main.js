@@ -29,7 +29,7 @@
           sortBy: 'most-recent',
           limit: 4,
           resolution: 'standard_resolution',
-          template: '<div class="col-sm-6 p0"><div class="pic gallery-inner box-border" style="background: url({{image}}) center; background-size: cover"><a href="#" class="btn btn-black">View</a></div></div>'
+          template: '<div class="col-sm-6 p0"><div class="pic gallery-inner box-border" style="background: url({{image}}) center; background-size: cover"><a href="{{link}}" target="_blank" class="btn btn-black">View</a></div></div>'
         });
 
         userFeed.run();
