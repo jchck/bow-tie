@@ -24,7 +24,7 @@
 						<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
 							<div class="col-sm-4">
 								<div class="box box-white">
-									<h2><?php the_title(); ?></h2>
+									<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 									<?php the_excerpt(); ?>
 									<a href="<?php the_permalink(); ?>" class="btn btn-black base my1">Read</a>
 								</div>
@@ -46,7 +46,7 @@
 		<div class="col-xs-8">
 			<div class="box box-white box-border">
 				<div class="about">
-					<p>Bow Tie is a WordPress theme made front-end developer and digital nomad Justin Chick.</p>
+					<p>Bow Tie is a WordPress theme made by front-end developer and digital nomad Justin Chick.</p>
 					<a href="#" class="btn btn-black base my1">What Makes This So Great?</a>
 				</div>
 			</div>
