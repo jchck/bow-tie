@@ -25,14 +25,15 @@ $sidebar-sm-columns:    4;
 // Colors
 $black:					#1C140D;
 $white:					#fff;
+$yellow:				#fff000;
 $brand-primary:         #27ae60;
 
 // Scaffolding
 $body-bg: 				$black;
 $text-color:			$white;
 
-// $link-color:           	$text-color;
-// $link-hover-color:      darken($link-color, 15%);
+$link-color:           	$text-color;
+$link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: none;
 
 // Typography
