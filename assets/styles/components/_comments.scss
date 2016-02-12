@@ -1,4 +1,7 @@
-.comments{ background: $black; }
+.comments{ 
+	background: $black;
+	margin-bottom: ($line-height-computed * 2);
+}
 
 .comment-list {
   @include list-unstyled;
