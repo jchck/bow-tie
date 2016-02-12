@@ -42,3 +42,20 @@
 		}
 	}
 }
+
+.entry-content{
+	background: $black;
+	padding: $line-height-computed ($line-height-computed * 2);
+
+	p{
+		font-size: $font-size-large;
+	}
+
+	img{
+		width: 100%;
+	}
+}
+
+.comments{
+	background: $black;
+}
