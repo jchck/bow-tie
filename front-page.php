@@ -56,7 +56,7 @@
 		</div>
 	</div>
 
-	<div class="row section gallery" id="instafeed">
+	<div class="row section" id="instafeed">
 	</div>
 
 </div>
