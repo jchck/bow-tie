@@ -1,3 +1,11 @@
+.post-header{
+	padding: 0;
+	position: relative;
+	height: 50vh;
+	img{
+		width: 100%;
+	}
+}
 .entry-title{
 	@include border-base;
 	padding: $line-height-computed;
@@ -30,16 +38,6 @@
 		padding-top: 4px;
 		padding-bottom: 4px;
 		display: block;
-	}
-	&:hover{
-		time{ 
-			display: none;
-		}
-	}
-	&:not(:hover){
-		ul{
-			display: none;
-		}
 	}
 }
 

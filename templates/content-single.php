@@ -1,10 +1,12 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
 
-    <header class="flex center-xs">
-      <div class="entry-title flex flex-column">
+    <header class="post-header flex flex-center" style="background: url(<?php the_post_thumbnail_url(); ?>) center center; background-size: cover; background-attachment: fixed">
+      <div class="entry-title center-block">
+      <div class="flex flex-column">
         <h1><?php the_title(); ?></h1>
         <?php get_template_part('templates/entry-meta'); ?>
+      </div>
       </div>
     </header>
 
