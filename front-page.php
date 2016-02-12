@@ -19,15 +19,24 @@
 		<div class="col-xs-12">
 			<div class="box box-black">
 				<div class="row center-xs">
-					<?php while (have_posts()) : the_post(); ?>
-					<div class="col-sm-4">
+					<?php $the_query = new WP_Query( array( 'posts_per_page' => 3 ) ); ?>
+					<?php if ($the_query->have_posts()): ?>
+						<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+							<div class="col-sm-4">
+								<div class="box box-white">
+									<h2><?php the_title(); ?></h2>
+									<?php the_excerpt(); ?>
+									<a href="<?php the_permalink(); ?>" class="btn btn-black base my1">Read</a>
+								</div>
+							</div>
+						<?php endwhile; ?>
+						<?php wp_reset_postdata(); ?>
+					<?php else : ?>
 						<div class="box box-white">
-							<h2><?php the_title(); ?></h2>
-							<?php the_excerpt(); ?>
-							<a href="<?php the_permalink(); ?>" class="btn btn-black base my1">Read</a>
+							<h2>Whoops!</h2>
+							<p>Look likes someone forgot to add some posts...</p>
 						</div>
-					</div>
-					<?php endwhile; ?>
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
