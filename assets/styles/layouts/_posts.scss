@@ -53,3 +53,11 @@
 		width: 100%;
 	}
 }
+
+.sidebar-img{
+	margin: $line-height-computed 0;
+
+	&:first-of-type{
+		margin-top: 0;
+	}
+}
