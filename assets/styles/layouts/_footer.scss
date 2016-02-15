@@ -1,0 +1,13 @@
+footer{
+	.box.box-black{
+		a{
+			color: $white;
+			box-shadow: none;
+			border-bottom: 0;
+			&.login:hover{
+				color: $white;
+				background-color: transparent;
+			}
+		}
+	}
+}
