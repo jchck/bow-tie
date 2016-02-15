@@ -17,16 +17,16 @@
 
 	<div class="row section">
 		<div class="col-xs-12">
+			<p class="section-title color-black text-center">Latest Posts</p>
 			<div class="box box-black">
 				<div class="row center-xs">
 					<?php $the_query = new WP_Query( array( 'posts_per_page' => 3 ) ); ?>
 					<?php if ($the_query->have_posts()): ?>
 						<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
-							<div class="col-sm-4">
+							<div class="col-sm-4 flex">
 								<div class="box box-white">
 									<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 									<?php the_excerpt(); ?>
-									<a href="<?php the_permalink(); ?>" class="btn btn-black btn-base my1">Read</a>
 								</div>
 							</div>
 						<?php endwhile; ?>
