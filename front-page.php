@@ -26,7 +26,7 @@
 								<div class="box box-white">
 									<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 									<?php the_excerpt(); ?>
-									<a href="<?php the_permalink(); ?>" class="btn btn-black base my1">Read</a>
+									<a href="<?php the_permalink(); ?>" class="btn btn-black btn-base my1">Read</a>
 								</div>
 							</div>
 						<?php endwhile; ?>
