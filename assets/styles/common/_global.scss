@@ -109,5 +109,15 @@ img{ @include img-responsive }
 /* Pic Holders */
 
 .pic{
-	padding: ($line-height-computed * 6)
+	padding: ($line-height-computed * 6);
+	.btn{
+		opacity: 0;
+		@include ease-in-out;
+	}
+	&:hover{
+		filter: grayscale(1);
+		.btn{
+			opacity: 1;
+		}
+	}
 }
