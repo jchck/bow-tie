@@ -41,7 +41,8 @@ h4, h5, h6{
 }
 
 /* Link */
-article a{
+article a,
+.box a:not(.btn){
 	@include ease-in-out;
 	box-shadow: inset 0 -3px 0 $yellow;
 	border-bottom: 3px solid $yellow;
@@ -82,7 +83,12 @@ img{ @include img-responsive }
 	}
 }
 
-.box{ padding: $line-height-computed }
+.box{ 
+	padding: $line-height-computed;
+	a:not(.btn){
+		color: $black;
+	}
+}
 
 .box-black{
 	background: $black;
