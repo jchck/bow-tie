@@ -2,9 +2,6 @@
 	padding: 0;
 	position: relative;
 	height: 50vh;
-	img{
-		width: 100%;
-	}
 }
 .entry-title{
 	@include border-base;
@@ -42,8 +39,9 @@
 }
 
 .entry-content{
-	background: $black;
-	padding: $line-height-computed ($line-height-computed * 2);
+	margin: $line-height-computed;
+	@extend .border-base;
+	padding: $line-height-computed;
 
 	p{
 		font-size: $font-size-large;

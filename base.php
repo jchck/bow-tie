@@ -22,7 +22,7 @@ use Roots\Sage\Wrapper;
         get_template_part( 'templates/header' );
       ?>
       <div class="content row center-xs">
-        <main class="col-xs-12">
+        <main class="main">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->
         <?php if ( Setup\display_sidebar() ) : ?>
