@@ -26,6 +26,10 @@
 
 .h100{ height: 100% }
 
+/* Borders */
+.border-base{ @include borde-base }
+.border-sm{ @include border-sm }
+
 /* Flex Object */
 .flex{ display: flex }
 .flex-column{ flex-direction: column }
