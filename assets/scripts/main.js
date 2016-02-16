@@ -29,10 +29,7 @@
           sortBy: 'most-recent',
           limit: 4,
           resolution: 'standard_resolution',
-          template: '<div class="col-sm-6 p0">
-          <a href="{{link}}" target="_blank" style="color:#fff">
-            <div class="pic box-border" style="background: url({{image}}) center; background-size: cover"><button class="btn btn-black">View</button></div>
-          </a></div>'
+          template: '<div class="col-sm-6 p0"><a href="{{link}}" target="_blank" style="color:#fff"><div class="pic box-border" style="background: url({{image}}) center; background-size: cover"><button class="btn btn-black">View</button></div></a></div>'
         });
 
         userFeed.run();
