@@ -20,7 +20,7 @@ body{
 /* Heading Border Scale */
 
 h1, h2, h3, h4, h5, h6{
-	@include border-base;
+	@extend .border-base;
 	display: inline-block;
 }
 h1, h2, h3{
@@ -58,7 +58,7 @@ img{ @include img-responsive }
 /* Div Border */
 
 .border{
-	@include border-base;
+	@extend .border-base;
 	padding: $line-height-computed;
 }
 
