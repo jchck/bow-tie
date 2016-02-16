@@ -12,7 +12,7 @@
 		</header>
 
 		<div class="row center-xs">
-			<div class="col-xs-8">
+			<div class="col-xs-12 col-md-8">
 				<div class="entry-content">
 					<?php the_content(); ?>
 

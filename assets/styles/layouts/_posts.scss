@@ -39,12 +39,19 @@
 }
 
 .entry-content{
-	margin: $line-height-computed;
 	@extend .border-base;
-	padding: $line-height-computed;
+	margin: ($line-height-computed / 2) 0;
+	padding: ($line-height-computed / 2);
+	@media (min-width: $screen-sm){
+		margin: $line-height-computed;
+		padding: $line-height-computed;
+	}
 
 	p{
-		font-size: $font-size-large;
+		font-size: $font-size-base;
+		@media (min-width: $screen-sm){
+			font-size: $font-size-large;
+		}
 	}
 
 	img{
