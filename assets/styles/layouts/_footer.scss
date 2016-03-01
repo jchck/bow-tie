@@ -10,4 +10,10 @@ footer{
 			}
 		}
 	}
+	.left{
+		@media (min-width: $screen-sm){ float: left }
+	}
+	.right{
+		@media (min-width: $screen-sm){ float: right  }
+	}
 }
