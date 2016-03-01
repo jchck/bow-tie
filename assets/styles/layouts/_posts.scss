@@ -5,6 +5,7 @@
 }
 .entry-title{
 	@include border-base;
+	@extend .text-center;
 	padding: $line-height-computed;
 
 	h1{
