@@ -1,19 +1,37 @@
 /**
  *
- * This variables file will override Bootstraps default variables defined here:
- * bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
- * We attempt to maintain the same defination order as Bootstrap's variable file as well
+ * Bow Tie's Main Variables File
  *
  */
 
- // Flexbox Grid
+
+/**
+ *
+ * Flexbox Grid
+ * @link http://flexboxgrid.com
+ *
+ */
+
  $gutter-width:			1.5rem;
  $outer-margin: 		3rem;
  $gutter-compensation: (($gutter-width / 2) * -1);
 
- //jchck-btn
- // Uses same variable names as Bootstrap
+/**
+ *
+ * jchck-btn
+ * Uses same variable names as Bootstrap
+ * @link https://github.com/jchck/jchck-btn
+ *
+ */
+
  $btn-border-radius-base: 0px;
+
+ /**
+  *
+  * Bootstrap
+  * @link http://getbootstrap.com
+  *
+  */
 
 // Glyphicons font path
 $icon-font-path:        "../fonts/";
