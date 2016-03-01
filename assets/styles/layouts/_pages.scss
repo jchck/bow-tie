@@ -1,1 +1,4 @@
-.page .main{ @extend .bg-white }
+.page .main{ 
+	@extend .bg-white;
+	padding-bottom: ($outer-margin + $gutter-compensation);
+}
