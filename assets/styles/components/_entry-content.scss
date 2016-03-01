@@ -1,5 +1,4 @@
 .entry-content{
-	@extend .border-base;
 	margin: ($line-height-computed / 2) 0;
 	padding: ($line-height-computed / 2);
 	@media (min-width: $screen-sm){

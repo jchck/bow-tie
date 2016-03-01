@@ -13,7 +13,7 @@
 
 		<div class="row center-xs">
 			<div class="col-xs-12 col-md-8">
-				<div class="entry-content">
+				<div class="entry-content border-base">
 					<?php the_content(); ?>
 
 					<footer>
