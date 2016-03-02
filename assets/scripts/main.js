@@ -22,6 +22,25 @@
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+        (function(doc, script){
+          var js,
+          fjs   =   doc.getElementsByTagName(script)[0],
+          frag  =   doc.createDocumentFragment(),
+          add   =   function(url, id) {
+            if (doc.getElementById(id)) {return;}
+            js = doc.createElement(script);
+            js.src = url;
+            id && (js.id = id);
+            frag.appendChild( js );
+          };
+
+          // Facebook
+          add('//connect.facebook.net/en_US/all.js#xfbml=1&appId=200103733347528', 'facebook-jssdk');
+          // Twitter
+          add('//platform.twitter.com/widgets.js');
+
+          fjs.parentNode.insertBefore(frag, fjs);
+        }(document, 'script'));
       }
     },
     // Home page

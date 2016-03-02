@@ -29,7 +29,9 @@ function after_paragraph( $insertion, $paragraph_id, $content ){
  *
  */
 function insert_share( $content ){
-	$share = '<p class="text-center">Yo!</p>';
+	$share = '<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>';
+	$share .= '<div id="fb-root"></div>';
+	$share .= '<div class="fb-like" data-send="false" data-layout="button_count" data-width="1" data-show-faces="false" data-action="recommend"></div>';
 
 	if (is_single()) {
 		return after_paragraph( $share, 2, $content );
