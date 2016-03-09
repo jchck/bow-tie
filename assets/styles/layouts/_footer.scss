@@ -9,7 +9,10 @@ footer{
 				background-color: transparent;
 			}
 		}
+		a.bow-tie:hover{ background-color: transparent }
 	}
+
+	svg #Groom{ stroke: $white }
 	.left{
 		@media (min-width: $screen-sm){ float: left }
 	}
