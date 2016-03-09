@@ -17,6 +17,7 @@
 .alignright {
   margin-bottom: ($line-height-computed / 2);
   height: auto;
+  max-width: 50%;
 }
 @media (min-width: $screen-sm-min) {
   // Only float if not on an extra small device
