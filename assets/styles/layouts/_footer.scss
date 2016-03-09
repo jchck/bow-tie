@@ -1,18 +1,30 @@
 footer{
 	.box.box-black{
 		a{
-			color: $white;
+			color: $gray;
 			box-shadow: none;
 			border-bottom: 0;
-			&.login:hover{
+			&:hover{
 				color: $white;
+				background-color: transparent;
+			}
+			&.login:hover{
+				color: $gray;
 				background-color: transparent;
 			}
 		}
 		a.bow-tie:hover{ background-color: transparent }
 	}
 
-	svg #Groom{ stroke: $white }
+	h5{
+		font-size: 85%;
+		color: $gray;
+	}
+
+	svg #Groom{ 
+		stroke: $white;
+	}
+
 	.left{
 		@media (min-width: $screen-sm){ float: left }
 	}
