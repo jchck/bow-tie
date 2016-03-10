@@ -53,6 +53,11 @@ a.box{
 		@include ease-in-out;
 		filter: none;
 	}
+	&:not(.has-post-thumbnail){
+		header{
+			background-color: $black;
+		}
+	}
 	h2{
 		@include ease-in-out;
 		color: $white;
@@ -70,9 +75,6 @@ a.box{
 		h2{
 			box-shadow: none;
 			border-bottom-color: transparent;
-		}
-		.entry-summary{
-
 		}
 	}
 }
