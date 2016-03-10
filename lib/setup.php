@@ -86,6 +86,7 @@ function display_sidebar() {
     // @link https://codex.wordpress.org/Conditional_Tags
     is_404(),
     is_front_page(),
+    is_home(), // both is_front_page & is_home() are needed to target the blog page @link https://codex.wordpress.org/Conditional_Tags#The_Blog_Page
     is_page(),
     is_single(),
     is_page_template('template-custom.php'),
