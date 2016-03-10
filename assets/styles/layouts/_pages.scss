@@ -1,4 +1,4 @@
-.page .main{ 
+.page:not(.home) .main{ 
 	@extend .bg-white;
 	@media (min-width: $screen-sm){
 		padding-bottom: ($outer-margin + $gutter-compensation);
