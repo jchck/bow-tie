@@ -7,8 +7,8 @@
 				<div class="col-sm-6 col-xs-12">
 					<div class="border text-center">
 						<h2>A WordPress theme that is so fresh and so clean</h2>
-						<a href="#" class="btn btn-black btn-lg">Download</a>
-						<a href="#" class="btn btn-black btn-lg">Fork</a>
+						<a href="https://github.com/jchck/bow-tie/archive/master.zip" class="btn btn-black btn-lg">Download</a>
+						<a href="https://github.com/jchck/bow-tie" target="_blank" class="btn btn-black btn-lg">Fork</a>
 						<h3>Made with care by:</h3>
 						<a href="http://jstn.ch/ck" target="_blank" title="Justin Chick is a freelance front-end developer" class="btn btn-transparent">Justin Chick</a>
 					</div>
@@ -47,7 +47,7 @@
 					<div class="box box-white box-border">
 						<div class="about">
 							<p>Bow Tie is a WordPress theme made by front-end developer and digital nomad Justin Chick.</p>
-							<a href="#" class="btn btn-black btn-base my1">What Makes This So Great?</a>
+							<a href="https://github.com/jchck/bow-tie" target="_blank" class="btn btn-black btn-base my1">Check it out on GitHub</a>
 						</div>
 					</div>
 				</div>
