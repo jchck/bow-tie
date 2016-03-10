@@ -46,3 +46,35 @@
 		margin-top: 0;
 	}
 }
+
+a.box{
+	@include ease-in-out;
+	header{
+		@include ease-in-out;
+		filter: none;
+	}
+	h2{
+		@include ease-in-out;
+		color: $white;
+		box-shadow: inset 0 -3px 0 $yellow;
+		border-bottom: 3px solid $yellow;
+	}
+	.entry-summary{
+		color: $black;
+	}
+
+	&:hover{
+		header{
+			filter: grayscale(1);
+		}
+		h2{
+			//color: $black;
+			box-shadow: none;
+			border-bottom-color: transparent;
+		}
+		.entry-summary{
+			//color: $black;
+			//opacity: 0;
+		}
+	}
+}
