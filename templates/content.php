@@ -1,8 +1,7 @@
 <div class="col-sm-4">
 	<article <?php post_class(); ?>>
-		<header>
+		<header class="flex center-xs" style="background: url(<?php the_post_thumbnail_url(); ?>) center center; background-size: cover;">
 			<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-			<?php get_template_part('templates/entry-meta'); ?>
 		</header>
 		<div class="entry-summary">
 			<?php the_excerpt(); ?>
