@@ -51,6 +51,8 @@ a.box{
 	@include ease-in-out;
 	header{
 		@include ease-in-out;
+		@include border-base;
+		border-color: $black;
 		filter: none;
 	}
 	&:not(.has-post-thumbnail){
@@ -71,10 +73,19 @@ a.box{
 	&:hover{
 		header{
 			filter: grayscale(1);
+			h2{
+				color: $white;
+				box-shadow: none;
+				border-bottom-color: transparent;
+			}
 		}
-		h2{
-			box-shadow: none;
-			border-bottom-color: transparent;
+	}
+	&:not(.has-post-thumbnail):hover{
+		header{
+			background-color: $gray-lighter;
+			h2{
+				color: $black;
+			}
 		}
 	}
 }
