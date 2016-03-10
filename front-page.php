@@ -4,7 +4,7 @@
 
 
 			<div class="row center-xs gutter-x-padding section">
-				<div class="col-sm-6 col-xs-12">
+				<div class="col-md-6 col-sm-8 col-xs-12">
 					<div class="border text-center">
 						<h2>A WordPress theme that is so fresh and so clean</h2>
 						<a href="https://github.com/jchck/bow-tie/archive/master.zip" class="btn btn-black btn-lg">Download</a>

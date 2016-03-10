@@ -3,6 +3,10 @@
 	position: relative;
 	height: 50vh;
 }
+article.post{
+	padding-left: 0;
+	padding-right: 0;
+}
 .entry-title{
 	@include border-base;
 	@extend .text-center;
