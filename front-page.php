@@ -23,7 +23,7 @@
 							<?php $the_query = new WP_Query( array( 'posts_per_page' => 3 ) ); ?>
 							<?php if ($the_query->have_posts()): ?>
 								<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
-									<div class="col-sm-4 flex">
+									<div class="col-xs-12 col-md-4 flex">
 										<div class="box box-white">
 											<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 											<?php the_excerpt(); ?>
@@ -43,7 +43,7 @@
 			</div>
 
 			<div class="row center-xs section">
-				<div class="col-xs-8">
+				<div class="col-xs-12 col-sm-10 col-md-8">
 					<div class="box box-white box-border">
 						<div class="about">
 							<p>Bow Tie is a WordPress theme made by front-end developer and digital nomad Justin Chick.</p>

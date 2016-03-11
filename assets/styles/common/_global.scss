@@ -109,10 +109,14 @@ img{ @include img-responsive }
 /* Pic Holders */
 
 .pic{
-	padding: ($line-height-computed * 6);
 	.btn{
-		opacity: 0;
 		@include ease-in-out;
+		opacity: 0;
+
+		margin: 5rem 0;
+		@media (min-width: $screen-xs){ margin: 10rem 0 }
+		@media (min-width: $screen-sm){ margin: 15rem 0 }
+		@media (min-width: $screen-md){ margin: 20rem 0 }
 	}
 	&:hover{
 		filter: grayscale(1);
@@ -120,12 +124,4 @@ img{ @include img-responsive }
 			opacity: 1;
 		}
 	}
-}
-
-/* Section Title */
-.section-title{
-	font-size: 12vw;
-	font-weight: 600;
-	margin-bottom: -30px;
-	line-height: 1;
 }

@@ -1,4 +1,6 @@
+/* Front Page Section */
 .section{
+	padding-bottom: 10rem;
 	@media (min-width: $screen-xs){ padding-bottom: 15rem }
 	@media (min-width: $screen-sm){ padding-bottom: 20rem }
 	@media (min-width: $screen-md){ padding-bottom: 30rem }
@@ -13,4 +15,18 @@
 			h3{ font-size: $font-size-h3 }
 		}
 	}
+}
+
+/* Section Title */
+.section-title{
+	font-weight: 600;
+	line-height: 1;
+
+	font-size: 12vw;
+	
+	margin-bottom: -12px;
+
+	@media(min-width: $screen-sm){ margin-bottom: -15px }
+
+	@media(min-width: $screen-md){ margin-bottom: -30px }
 }
