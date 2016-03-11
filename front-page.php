@@ -3,7 +3,7 @@
 		<div class="col-xs-11">
 
 
-			<div class="row center-xs gutter-x-padding section">
+			<div class="row center-xs gutter-x-padding section top">
 				<div class="col-md-6 col-sm-8 col-xs-12">
 					<div class="border text-center">
 						<h2>A WordPress theme that is so fresh and so clean</h2>
