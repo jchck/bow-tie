@@ -13,3 +13,45 @@
   @extend .btn;
   @extend .btn-default;
 }
+
+/* Gravity Forms */
+.gform_wrapper{
+
+	margin-bottom: $line-height-computed;
+
+	ul{ 
+		@extend .list-unstyled;
+		margin-bottom: $line-height-computed;
+	}
+
+	li{ @extend .form-group; }
+
+	label{ display: none }
+
+	.ginput_container{
+		input,
+		select,
+		textarea{ @extend .form-control; }
+
+		textarea{ height: 15rem }
+
+	}
+
+	.gfield_total{
+		text-align: center;
+		.ginput_container{
+			@extend .border-sm;
+			padding: ($line-height-computed / 2);
+			display: inline-block;
+		}
+	}
+
+	.gform_button{
+		@extend .btn;
+		@extend .btn-transparent;
+		@extend .btn-lg;
+
+		&.button{ @extend .center-block; }
+	}
+
+}

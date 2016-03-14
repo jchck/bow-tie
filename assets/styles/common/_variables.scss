@@ -77,3 +77,10 @@ $navbar-default-link-active-color:	$black;
 $navbar-default-toggle-hover-bg:           $white;
 $navbar-default-toggle-icon-bar-bg:        $black;
 $navbar-default-toggle-border-color:       $black;
+
+// Forms
+$form-group-margin-bottom:					2.5rem;
+$input-bg:									$white;
+$input-color:								$black;
+$input-color-placeholder:					lighten($black, 25%);
+$input-border:								$black;
