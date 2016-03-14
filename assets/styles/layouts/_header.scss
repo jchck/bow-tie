@@ -37,26 +37,26 @@ header{
 	}
 
 	@media (min-width: $screen-sm){
-		.nav{
-			> li{
-				//display: inline-block;
-				//padding: 0;
-			}
-			a{
-				// @include border-sm;
-				//color: $black;
-				padding: $nav-link-padding;
-				&:hover{
-					color: $white;
-					border-color: $black;
-				}
-			}
-			> .active a{
-				//color: $white;
-				//border-color: $black;
-				//background-color: $nav-link-hover-bg;
-			}
-		}
+		// .nav{
+		// 	> li{
+		// 		//display: inline-block;
+		// 		//padding: 0;
+		// 	}
+		// 	a{
+		// 		// @include border-sm;
+		// 		//color: $black;
+		// 		padding: $nav-link-padding;
+		// 		&:hover{
+		// 			color: $white;
+		// 			border-color: $black;
+		// 		}
+		// 	}
+		// 	> .active a{
+		// 		//color: $white;
+		// 		//border-color: $black;
+		// 		//background-color: $nav-link-hover-bg;
+		// 	}
+		// }
 	}
 
 }
