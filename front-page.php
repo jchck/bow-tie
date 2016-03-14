@@ -1,4 +1,4 @@
-<div class="h100" style="background: url(/content/themes/bow-tie/dist/images/farm.jpg) center; background-size: cover; background-attachment:fixed">
+<div class="h100" style="background: url(<?php echo get_template_directory_uri() ?>/dist/images/farm.jpg) center; background-size: cover; background-attachment:fixed">
 	<div class="row center-xs">
 		<div class="col-xs-11">
 
