@@ -30,6 +30,16 @@ h4, h5, h6{
 	padding: ($line-height-computed / 2);
 }
 
+.entry-content{
+	h1, h2, h3, h4, h5, h6{
+		width: 60%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+}
+
 /* Div Borders & Backgrounds & Pic Holders */
 
 .border, .box, .pic{
