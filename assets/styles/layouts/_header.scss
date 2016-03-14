@@ -8,8 +8,14 @@ header{
 		}
 		border-color: $black;
 		margin: 0;
+		.navbar-brand{
+			font-size: $font-size-large;
+			@media (min-width: $screen-sm){
+				font-size: $font-size-h1;
+			}
+		}
 		a{
-			color: $black;
+			// color: $black;
 			&:hover{
 				text-decoration: none;
 				color: $black;
