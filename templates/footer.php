@@ -6,7 +6,7 @@
 			</a>
 		</div>
 		<div class="row center-xs">
-			<a class="btn btn-transparent" href="#">Want Premimm Support?</a>
+			<a class="btn btn-transparent" href="<?= esc_url(home_url('/support')); ?>">Want Premimm Support?</a>
 		</div>
 		<div class="row center-xs">
 			<div class="col-xs-11">
