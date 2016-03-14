@@ -31,10 +31,15 @@
 .border-sm{ @include border-sm }
 
 /* Flex Object */
-.flex{ display: flex }
+.flex{ display: flex; }
+// .flex-xs @media (min-width: $screen-xs){ display: flex; }
+// .flex-sm @media (min-width: $screen-sm){ display: flex; }
+// .flex-md @media (min-width: $screen-md){ display: flex; }
+// .flex-lg @media (min-width: $screen-lg){ display: flex; }
 .flex-column{ flex-direction: column }
 .flex-row{ flex-direction: row }
 .flex-center{ align-items: center }
+.flex-between{ justify-content: space-between }
 
  /* Image Background */
 .bg-cover{ background-size: cover }
