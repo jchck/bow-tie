@@ -1,9 +1,12 @@
 <footer class="col-xs-12">
 	<div class="box box-black clearfix pr0 pl0">
 		<div class="row center-xs">
-			<a class="bow-tie" href="<?= esc_url(home_url('/')); ?>">
+			<a class="bow-tie my1" href="<?= esc_url(home_url('/')); ?>">
 				<?php get_template_part( 'templates/bow', 'tie' ); ?>
 			</a>
+		</div>
+		<div class="row center-xs">
+			<a class="btn btn-transparent" href="#">Want Premimm Support?</a>
 		</div>
 		<div class="row center-xs">
 			<div class="col-xs-11">
