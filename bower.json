@@ -31,7 +31,9 @@
         "./assets/stylesheets/bootstrap/_list-group.scss",
         "./assets/stylesheets/bootstrap/_responsive-embed.scss",
         "./assets/stylesheets/bootstrap/_utilities.scss",
-        "./assets/stylesheets/bootstrap/_responsive-utilities.scss"
+        "./assets/stylesheets/bootstrap/_responsive-utilities.scss",
+        "./assets/javascripts/bootstrap/transition.js",
+        "./assets/javascripts/bootstrap/collapse.js"
       ]
     },
     "instafeed.js": {
