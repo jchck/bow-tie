@@ -20,6 +20,7 @@ header{
 	.nav{
 		> li{
 			display: inline;
+			text-align: center;
 			padding: 0;
 			@media (min-width: $screen-sm){
 				display: inline-block;
@@ -42,25 +43,19 @@ header{
 	@media (min-width: $screen-sm){
 		.nav{
 			margin-top: 35.5px;
-			> li{
-				//display: inline-block;
-				//padding: 0;
-			}
 			a{
-				// @include border-sm;
-				//color: $black;
 				padding: $nav-link-padding;
 				&:hover{
 					color: $white;
 					border-color: $black;
 				}
 			}
-			> .active a{
-				//color: $white;
-				//border-color: $black;
-				//background-color: $nav-link-hover-bg;
-			}
 		}
+	}
+
+	.navbar-toggle{
+		border-radius: 0;
+		margin-top: 44.5px;
 	}
 
 }
