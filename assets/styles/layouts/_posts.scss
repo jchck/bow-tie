@@ -2,6 +2,7 @@
 	padding: 0;
 	position: relative;
 	height: 50vh;
+	@media (max-width: $screen-sm){ background-image: none !important }
 }
 article.post{
 	padding-left: 0;
