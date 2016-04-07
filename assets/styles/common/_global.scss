@@ -32,7 +32,8 @@ h4, h5, h6{
 
 .entry-content{
 	h1, h2, h3, h4, h5, h6{
-		width: 60%;
+		width: 100%;
+		@media (min-width: $screen-xs){ width: 60% }
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
