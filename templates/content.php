@@ -3,7 +3,7 @@
 		<header class="flex center-xs" <?php if(has_post_thumbnail()): ?> style="background: url(<?php the_post_thumbnail_url(); ?>) center center; background-size: cover;"<?php endif; ?>>
 			<h2 class="entry-title"><?php the_title(); ?></h2>
 		</header>
-		<div class="entry-summary">
+		<div class="entry-summary hidden-xs">
 			<?php the_excerpt(); ?>
 		</div>
 	</a>
