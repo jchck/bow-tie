@@ -46,7 +46,7 @@
 				<div class="col-xs-12 col-sm-10 col-md-8">
 					<div class="box box-white box-border">
 						<div class="about">
-							<p>Bow Tie is a WordPress theme made by front-end developer and digital nomad Justin Chick.</p>
+							<p>Bow Tie is a WordPress theme made by front-end developer Justin Chick.</p>
 							<a href="<?= esc_url(home_url('/support')); ?>" class="btn btn-black btn-base my1">Get Premium Support</a>
 						</div>
 					</div>
