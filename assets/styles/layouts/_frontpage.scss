@@ -23,6 +23,11 @@
 			h3{ font-size: $font-size-h3 }
 		}
 	}
+
+	.about .btn{
+		font-size: 60%;
+		@media (min-width: $screen-xs){ font-size: 100% }
+	}
 }
 
 /* Section Title */
