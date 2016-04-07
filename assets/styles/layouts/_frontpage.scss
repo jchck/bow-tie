@@ -4,6 +4,7 @@
 	background-position: center center !important;
 	background-attachment: fixed !important;
 	background-size: auto !important;
+	@media (min-width: $screen-sm){ background-size: cover !important }
 	background-repeat: no-repeat;
 }
 
