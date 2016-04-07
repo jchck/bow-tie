@@ -17,7 +17,7 @@
 
 			<div class="row section">
 				<div class="col-xs-12">
-					<p class="section-title color-black text-center">Latest Posts</p>
+					<p class="section-title color-black text-center hidden-xs">Latest Posts</p>
 					<div class="box box-black">
 						<div class="row center-xs">
 							<?php $the_query = new WP_Query( array( 'posts_per_page' => 3 ) ); ?>

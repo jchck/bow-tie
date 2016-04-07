@@ -96,7 +96,8 @@ img{ @include img-responsive }
 }
 
 .box{ 
-	padding: $line-height-computed;
+	padding: $line-height-computed / 2;
+	@media (min-width: $screen-xs){ padding: $line-height-computed; }
 	a:not(.btn){
 		color: $black;
 	}
@@ -110,6 +111,11 @@ img{ @include img-responsive }
 .box-white{
 	background: $white;
 	color: $black;
+	margin-bottom: $line-height-computed / 2;
+	&:last-of-type{
+		margin-bottom: 0;
+	}
+	@media(min-width: $screen-xs){ margin-bottom: 0 }
 }
 
 /* Div Background w Border */
