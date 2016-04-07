@@ -54,8 +54,10 @@
 			</div>
 
 			<div class="section">
-				<p class="section-title color-white text-center">Latest Pics</p>
-				<div class="row" id="instafeed">
+				<div class="row">
+					<p class="section-title color-white text-center hidden-xs">Latest Pics</p>
+				</div>
+				<div class="row center-xs" id="instafeed">
 				</div>
 			</div>
 
