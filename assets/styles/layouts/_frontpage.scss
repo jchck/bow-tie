@@ -6,10 +6,9 @@
 	@media (min-width: $screen-md){ padding-bottom: 30rem }
 
 	&.top{
-		@media (min-width: $screen-sm){ 
-			h2{ font-size: ( $font-size-h2 * .75 ) }
-			h3{ font-size: ( $font-size-h3 * .75 ) }
-		}
+		h2{ font-size: ( $font-size-h2 * .75 ) }
+		h3{ font-size: ( $font-size-h3 * .75 ) }
+		
 		@media (min-width: $screen-md){
 			h2{ font-size: $font-size-h2 }
 			h3{ font-size: $font-size-h3 }
